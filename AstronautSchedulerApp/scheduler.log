@@ -1,0 +1,66 @@
+Jul 28, 2024 5:41:18 PM LogManager logInfo
+INFO: Exiting application.
+Jul 28, 2024 5:44:25 PM LogManager logInfo
+INFO: AstronautSchedulerApp started.
+Jul 28, 2024 5:44:31 PM LogManager logError
+SEVERE: An unexpected error occurred: Unimplemented method 'getTaskByDescription'
+java.lang.UnsupportedOperationException: Unimplemented method 'getTaskByDescription'
+	at ScheduleManager.getTaskByDescription(ScheduleManager.java:79)
+	at AstronautSchedulerApp.markTaskCompleted(AstronautSchedulerApp.java:122)
+	at AstronautSchedulerApp.handleUserChoice(AstronautSchedulerApp.java:58)
+	at AstronautSchedulerApp.main(AstronautSchedulerApp.java:12)
+
+Jul 28, 2024 5:44:45 PM LogManager logInfo
+INFO: Task added: read
+Jul 28, 2024 5:44:49 PM LogManager logError
+SEVERE: An unexpected error occurred: Unimplemented method 'getTaskByDescription'
+java.lang.UnsupportedOperationException: Unimplemented method 'getTaskByDescription'
+	at ScheduleManager.getTaskByDescription(ScheduleManager.java:79)
+	at AstronautSchedulerApp.markTaskCompleted(AstronautSchedulerApp.java:122)
+	at AstronautSchedulerApp.handleUserChoice(AstronautSchedulerApp.java:58)
+	at AstronautSchedulerApp.handleUserChoice(AstronautSchedulerApp.java:72)
+	at AstronautSchedulerApp.handleUserChoice(AstronautSchedulerApp.java:72)
+	at AstronautSchedulerApp.main(AstronautSchedulerApp.java:12)
+
+Jul 28, 2024 5:51:57 PM LogManager logInfo
+INFO: Task edited: fly
+Jul 28, 2024 5:52:23 PM LogManager logWarning
+WARNING: Task conflict detected: read
+Jul 28, 2024 6:16:27 PM LogManager logInfo
+INFO: AstronautSchedulerApp started.
+Jul 28, 2024 6:16:39 PM LogManager logInfo
+INFO: Task added: read
+Jul 28, 2024 6:18:55 PM LogManager logInfo
+INFO: Exiting application.
+Jul 28, 2024 6:18:59 PM LogManager logInfo
+INFO: AstronautSchedulerApp started.
+Jul 28, 2024 6:19:13 PM LogManager logError
+SEVERE: Invalid time format: Low - 04:10
+Jul 28, 2024 6:19:25 PM LogManager logInfo
+INFO: Task added: read
+Jul 28, 2024 6:24:41 PM LogManager logInfo
+INFO: Exiting application.
+Jul 28, 2024 6:24:46 PM LogManager logInfo
+INFO: AstronautSchedulerApp started.
+Jul 28, 2024 6:24:54 PM LogManager logInfo
+INFO: Task added: read
+Jul 28, 2024 6:25:32 PM LogManager logError
+SEVERE: An unexpected error occurred: null
+java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1486)
+	at AstronautSchedulerApp.viewTasksByPriority(AstronautSchedulerApp.java:151)
+	at AstronautSchedulerApp.handleUserChoice(AstronautSchedulerApp.java:65)
+	at AstronautSchedulerApp.handleUserChoice(AstronautSchedulerApp.java:76)
+	at AstronautSchedulerApp.main(AstronautSchedulerApp.java:12)
+
+Jul 28, 2024 6:25:39 PM LogManager logInfo
+INFO: AstronautSchedulerApp started.
+Jul 28, 2024 6:25:46 PM LogManager logInfo
+INFO: Task added: read
+Jul 28, 2024 6:25:51 PM LogManager logInfo
+INFO: Task removed: read
+		Jul 28, 2024 7:31:51 PM LogManager logInfo
+INFO: AstronautSchedulerApp started.
+Jul 28, 2024 7:34:48 PM LogManager logInfo
+INFO: Exiting application.
